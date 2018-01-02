@@ -35,7 +35,7 @@ public class Aquarium extends Frame implements Runnable{
 		fishImages[1] = Toolkit.getDefaultToolkit().getImage(getClass().getResource("/fish2.gif")).getScaledInstance(30, 30, Image.SCALE_DEFAULT);
 		tracker.addImage(fishImages[1], 1);
 		
-		aquariumImage = Toolkit.getDefaultToolkit().getImage(getClass().getResource("/bubbles.jpg")).getScaledInstance(800, 600, Image.SCALE_DEFAULT);
+		aquariumImage = Toolkit.getDefaultToolkit().getImage(getClass().getResource("/bubbles.gif")).getScaledInstance(800, 600, Image.SCALE_DEFAULT);
 		tracker.addImage(aquariumImage, 0);
 		
 		
